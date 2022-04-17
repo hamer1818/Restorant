@@ -2,6 +2,7 @@
 
 
 import os
+import sys
 
 
 masalar = dict()
@@ -41,7 +42,7 @@ def sil():
 
 def cikis():
     print("Program kapanıyor...")
-    quit()
+    sys.exit()
 
 def kontrol(kayıt_adi):
     try:
