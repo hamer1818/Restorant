@@ -1,6 +1,3 @@
-
-
-
 import os
 import sys
 
@@ -104,7 +101,7 @@ def main():
             cikis()
         else:
             input("Yanlış/Eksik Seçim yaptınız\nMenüye dönmek için Enter'e basınız!")
-
+print('deneme')
 
 
 
