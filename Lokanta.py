@@ -19,7 +19,7 @@ def osSystem(sistem):
 def ekle():
     masa_no = int(input("Hesap ekleyeceğiniz masayı seçin: "))
     gecerliHesap = masalar[masa_no]
-    
+
     yeniHesap = float(input("Hesap tutarını girin: "))
     toplam = gecerliHesap+yeniHesap
     masalar[masa_no] = toplam
